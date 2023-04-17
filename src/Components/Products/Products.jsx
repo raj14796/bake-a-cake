@@ -14,7 +14,7 @@ const Products = () => {
             <div className={classes.bgCream}></div>
             <div className={classes.products}>
                 <div className={classes.productTypes}>
-                    <img className={classes.headImage} src={premiumCakes}></img>
+                    <img className={classes.headImage} src={premiumCakes} alt={'premium-cakes'}></img>
                 </div>
                 <Typography className={classes.title} variant="h4" gutterBottom>NEW PRODUCTS</Typography>
                 <Grid container spacing={4} >
