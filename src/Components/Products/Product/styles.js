@@ -4,6 +4,10 @@ export default makeStyles(() => ({
     root: {
         width: '100%',
         height: '100%',
+        '&:hover': {
+            border: '2px solid #f50057',
+            boxShadow: '0 10px 20px #f50057'   
+        }
     },
     media: {
         height: '100px',
@@ -20,7 +24,7 @@ export default makeStyles(() => ({
         height: '100%'
     },
     description: {
-        height: '200px',
+        height: '100px',
         overflow: 'scroll'
     }
 }))

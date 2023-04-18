@@ -5,7 +5,7 @@ export default makeStyles((theme) => ({
     content: {
         flexGrow: 1,
         backgroundColor: theme.palette.background.default,
-        padding: theme.spacing(3),
+        padding: theme.spacing(3)
     },
     bgCream: {
         backgroundColor: '#FAE8E0',
@@ -20,7 +20,7 @@ export default makeStyles((theme) => ({
         textAlign: 'center'
     },
     productTypes: {
-        boxShadow: '0 3px 10px rgb(0 0 0 / 0.2);',
+        boxShadow: '0 3px 10px rgb(0 0 0 / 0.8);',
         height: '200px',
         marginBottom: '20px',
     },
